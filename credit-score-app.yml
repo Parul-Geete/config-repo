@@ -1,0 +1,13 @@
+message: Hello world - this is from config server – Development environment.
+spring:
+  data:
+      mongodb:
+        user: root
+        password: root
+        uri: mongodb://localhost:27017/experian
+        database: experian
+server:
+  port: 8085
+
+  servlet:
+    context-path: /experian
