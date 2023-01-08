@@ -1,7 +1,0 @@
-message: Hello world - this is from config server – Development environment.
-spring:
-  data:
-      mongodb:
-        user: 
-        password: 
-        uri: mongodb:mongodb://localhost:27017/experian
